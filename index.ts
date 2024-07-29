@@ -29,12 +29,7 @@ export class BroadcastService {
   sendMessage(message: any, storeInHistory: boolean = true) {
     this.channel.postMessage(message);
     if (storeInHistory) {
-      if (!this.storage[this.channel.name]) {
-        this.storage[this.channel.name] = [];
-      }
-      this.storage[this.channel.name]?.push(message);
-      console.log("Added message to history", message, this.channel.name);
-      console.log(this.storage[this.channel.name]?.length);
+      this.addToStorage(this.channel.name, message);
     }
   }
 
@@ -52,7 +47,7 @@ export class BroadcastService {
   //Send a message to all instances.
   broadcast(message: any) {
     this.broadcastChannel.postMessage(message);
-    this.storage[this.broadcastChannel.name]?.push(message);
+    this.addToStorage(this.broadcastChannel.name, message);
   }
 
   getHistory(includeBroadcasts: boolean = false) {
