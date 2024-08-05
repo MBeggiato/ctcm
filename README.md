@@ -82,6 +82,12 @@ communicationManager.close();
 
 # Changelog
 
+## [0.0.7] - 2024-08-05
+
+### Fixed
+
+- Fixed wrong import instructions in readme
+
 ## [0.0.6] - 2024-08-05
 
 ### Added
