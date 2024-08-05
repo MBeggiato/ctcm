@@ -83,6 +83,12 @@ communicationManager.close();
 
 # Changelog
 
+## [0.0.6] - 2024-08-05
+
+### Added
+
+- Added repository to `package.json`
+
 ## [0.0.5] - 2024-08-05
 
 ### Added

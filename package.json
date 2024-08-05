@@ -2,7 +2,11 @@
   "name": "ctcm",
   "license": "MIT",
   "description": "A utility for managing cross-tab communication using the BroadcastChannel API.",
-  "version": "0.0.5",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MBeggiato/ctcm.git"
+  },
+  "version": "0.0.6",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
