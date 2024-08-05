@@ -82,6 +82,16 @@ communicationManager.close();
 
 # Changelog
 
+## [0.0.8 - Unreleased]
+
+### Added
+
+- Added branch protection
+
+### Removed
+
+- Removed index.ts from npm package by adding it to .npmignore
+
 ## [0.0.7] - 2024-08-05
 
 ### Fixed
