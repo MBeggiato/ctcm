@@ -25,11 +25,8 @@ bun install ctcm
 
 ### Importing the Class
 
-First, import the `CrossTabCommunicationManager` class and the `CrossTabCommunicationError` class into your TypeScript file:
-
 ```typescript
-import { CrossTabCommunicationManager } from "./path/to/communication/CrossTabCommunicationManager";
-import { CrossTabCommunicationError } from "./path/to/communication/CrossTabCommunicationError";
+import { CrossTabCommunicationManager, CrossTabCommunicationError } from "ctcm";
 ```
 
 ### Creating an Instance
