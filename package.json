@@ -2,7 +2,7 @@
   "name": "ctcm",
   "license": "MIT",
   "description": "A utility for managing cross-tab communication using the BroadcastChannel API.",
-  "version": "0.0.2",
+  "version": "0.0.5",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
@@ -11,7 +11,6 @@
     "lint": "tsc"
   },
   "dependencies": {
-    "@changesets/cli": "^2.27.7",
     "tsup": "^8.2.3",
     "typescript": "^5.5.4"
   }
