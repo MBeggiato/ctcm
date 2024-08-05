@@ -1,5 +1,7 @@
 # CrossTabCommunicationManager
 
+[![NPM version](https://img.shields.io/npm/v/ctcm.svg?style=flat)](https://www.npmjs.com/package/ctcm) [![NPM monthly downloads](https://img.shields.io/npm/dm/ctcm.svg?style=flat)](https://npmjs.org/package/ctcm) [![NPM total downloads](https://img.shields.io/npm/dt/ctcm.svg?style=flat)](https://npmjs.org/package/ctcm)
+
 CrossTabCommunicationManager is a TypeScript class that facilitates cross-tab communication using the BroadcastChannel API. It allows you to send messages between different browser tabs or windows that are open on the same origin.
 
 ## Features
